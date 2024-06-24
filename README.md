@@ -17,7 +17,7 @@ To replicate the results from the paper, follow these steps:
 
 Run the following Stata do-files in sequence:
 
-1. **Nigeria_CSdid.do**: Performs all analysis done for the report.
+1. **Nigeria_CSdid.do**: Performs the baseline analysis.
     ```stata
     do "${code}/analysis/Nigeria_CSdid.do"
     ```
