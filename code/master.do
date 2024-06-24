@@ -1,7 +1,7 @@
 ********************************************************************************
 /*Description: This master do file runs all the codes to replicate results for 
 "The welfare effects of mobile broadband internet: Evidence from Nigeria" published 
-at Journal of Development Economics (The welfare effects of mobile broadband internet: Evidence from Nigeria).*/
+at Journal of Development Economics (https://www.sciencedirect.com/science/article/pii/S0304387824000634).*/
 *download various packages
 *cap ssc install outreg2 
 *cap ssc install geodist

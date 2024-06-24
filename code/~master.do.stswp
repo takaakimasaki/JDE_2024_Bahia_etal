@@ -1,7 +1,7 @@
 ********************************************************************************
 /*Description: This master do file runs all the codes to replicate results for 
 "The welfare effects of mobile broadband internet: Evidence from Nigeria" published 
-at Journal of Development Economics (The welfare effects of mobile broadband internet: Evidence from Nigeria).*/
+at Journal of Development Economics (https://www.sciencedirect.com/science/article/pii/S0304387824000634).*/
 *download various packages
 *cap ssc install outreg2 
 *cap ssc install geodist
@@ -15,7 +15,7 @@ gl code "***"
 gl path "***"
 
 if "`c(username)'" == "wb495141" | "`c(username)'" == "WB495141" {
-gl code "C:/Users/`c(username)'/GitHub/nigeria/code"
+gl code "C:/Users/`c(username)'/GitHub/JDE_2024_Bahia_etal/code"
 gl path "C:/Users/`c(username)'/OneDrive - WBG/poverty/DT/nigeria"
 }
 
