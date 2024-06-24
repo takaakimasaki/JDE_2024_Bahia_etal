@@ -13,31 +13,6 @@ To replicate the results from the paper, follow these steps:
 
 1. Ensure you have Stata installed on your computer.
 2. Clone this repository to your local machine.
-3. Specify the relevant paths for codes and datasets.
+3. Open `code/master.do` in STATA, specify the relevant paths for codes and datasets, and run it.
 
-Run the following Stata do-files in sequence:
 
-1. **Nigeria_CSdid.do**: Performs the baseline analysis.
-    ```stata
-    do "${code}/analysis/Nigeria_CSdid.do"
-    ```
-
-2. **Nigeria_CSdid_wgt.do**: Replicates the baseline analysis with survey weights.
-    ```stata
-    do "${code}/analysis/Nigeria_CSdid_wgt.do"
-    ```
-
-3. **Nigeria_CSdid_Dist.do**: Limits the analysis to the 6km-16km range.
-    ```stata
-    do "${code}/analysis/Nigeria_CSdid_Dist.do"
-    ```
-
-4. **GBdecomp.do**: Conducts the GB decomposition.
-    ```stata
-    do "${code}/analysis/GBdecomp.do"
-    ```
-
-5. **visualize_results.do**: Visualizes the heterogeneous effects.
-    ```stata
-    do "${code}/analysis/visualize_results.do"
-    ```
