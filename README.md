@@ -13,7 +13,7 @@ To replicate the results from the paper, follow these steps:
 
 1. Ensure you have Stata installed on your computer.
 2. Clone this repository to your local machine.
-3. Set the Stata working directory to the cloned repository path.
+3. Specify the relevant paths for codes and datasets.
 
 Run the following Stata do-files in sequence:
 
